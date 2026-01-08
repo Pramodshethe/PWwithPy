@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eeee87f-1d58-43eb-adb7-d6267dd3c90b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonPlay.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/test_playwrightbasic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_UIvalidation1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pramodshethe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Pramodshethe/PWwithPy.git",
+    "accountId": "da34766b-0070-4f64-8724-9d654718df8c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -39,6 +46,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for playwright.test_UIvalidation1.test_UIValidationDynamicSCript.executor": "Run",
+    "Python tests.Python tests for playwright.test_UIvalidation1.test_childwindowhandle.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_coreLocaters.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_firefocbrowser.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_playbasic.executor": "Run",
@@ -47,13 +56,43 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/pramo/PycharmProjects/PythonPlay",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for playwright.test_playwrightbasic.test_firefocbrowser">
+  <component name="RunManager" selected="Python tests.Python tests for playwright.test_UIvalidation1.test_childwindowhandle">
+    <configuration name="Python tests for playwright.test_UIvalidation1.test_UIValidationDynamicSCript" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PythonPlay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;playwright.test_UIvalidation1.test_UIValidationDynamicSCript&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for playwright.test_UIvalidation1.test_childwindowhandle" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PythonPlay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;playwright.test_UIvalidation1.test_childwindowhandle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for playwright.test_playwrightbasic.test_coreLocaters" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
