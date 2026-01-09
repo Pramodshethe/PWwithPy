@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eeee87f-1d58-43eb-adb7-d6267dd3c90b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/playwright/test_UIvalidation1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_Vaidat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_UIvalidation1.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_UIvalidation1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for playwright.test_UIvalidation1.test_UIValidationDynamicSCript.executor": "Run",
     "Python tests.Python tests for playwright.test_UIvalidation1.test_childwindowhandle.executor": "Run",
+    "Python tests.Python tests for playwright.test_Vaidat.test_handleAlerts.executor": "Run",
+    "Python tests.Python tests for playwright.test_Vaidat.test_handleTable.executor": "Run",
+    "Python tests.Python tests for playwright.test_Vaidat.test_validatenew.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_coreLocaters.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_firefocbrowser.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_playbasic.executor": "Run",
@@ -62,7 +66,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for playwright.test_UIvalidation1.test_childwindowhandle">
+  <component name="RunManager" selected="Python tests.Python tests for playwright.test_Vaidat.test_handleTable">
     <configuration name="Python tests for playwright.test_UIvalidation1.test_UIValidationDynamicSCript" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
@@ -90,6 +94,51 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;playwright.test_UIvalidation1.test_childwindowhandle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for playwright.test_Vaidat.test_handleAlerts" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PythonPlay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;playwright.test_Vaidat.test_handleAlerts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for playwright.test_Vaidat.test_handleTable" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PythonPlay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;playwright.test_Vaidat.test_handleTable&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for playwright.test_Vaidat.test_validatenew" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PythonPlay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;playwright.test_Vaidat.test_validatenew&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
