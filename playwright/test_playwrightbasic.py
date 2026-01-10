@@ -50,3 +50,5 @@ def test_firefocbrowser(playwright:Playwright):
     page.get_by_role("combobox").select_option("teach")
     page.locator("#terms").check()
     page.get_by_role("button", name="Sign In").click()
+
+    #select_option() to select an option based on visible text in dropdown

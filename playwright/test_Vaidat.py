@@ -23,6 +23,7 @@ def test_handleAlerts(page:Page):
 
 def test_handleTable(page:Page):
     #table
+    global pricecolvalue
     page.goto("https://rahulshettyacademy.com/seleniumPractise/#/offers/")
 
     for index in range(page.locator("th").count()):
@@ -30,5 +31,12 @@ def test_handleTable(page:Page):
             pricecolvalue = index
             break
 
-    print(page.locator("tr").filter(has_text="Rice"))
+    riceRow = page.locator("tr").filter(has_text="Rice")
+    print(riceRow)
+    expect(riceRow.locator("td").nth(pricecolvalue)).to_have_text("37")
+
+def test_mouseHover(page:Page):
+    page.goto("https://rahulshettyacademy.com/AutomationPractice")
+    page.locator("#mousehover").hover()
+    page.get_by_role("link", name="Top").click()
 
