@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eeee87f-1d58-43eb-adb7-d6267dd3c90b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/playwright/test_Vaidat.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_Validate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_web_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/utils/apiBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
     "Python tests.Python tests for playwright.test_playwrightbasic.test_playbasic.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_playwrightpage.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightbasic.test_wrongCoreLocaters.executor": "Run",
+    "Python tests.Python tests for playwright.test_web_api.test_e2e_web_api.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -65,7 +68,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for playwright.test_web_api.test_e2e_web_api">
     <configuration name="Python tests for playwright.test_UIvalidation1.test_UIValidationDynamicSCript" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
@@ -228,6 +231,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;playwright.test_playwrightbasic.test_wrongCoreLocaters&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for playwright.test_web_api.test_e2e_web_api" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PythonPlay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;playwright.test_web_api.test_e2e_web_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
