@@ -21,6 +21,9 @@ class APIUtils:
         response = api_req_con.post("/api/ecom/order/create-order",
                                     data=orderspayload,
                                     headers={"Authorization": token,
-                                             "content - type": "application / json"
+                                             "content-Type": "application/json"
                                              })
         print(response.json())
+        response_body = response.json()
+        orderid = response_body["orders"][0]
+        return orderid
