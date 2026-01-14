@@ -1,3 +1,4 @@
+import pytest
 from playwright.sync_api import Page, expect
 
 
@@ -17,6 +18,7 @@ def test_UIValidationDynamicSCript(page:Page):
     page.get_by_text("Checkout").click()
     expect(page.locator(".media-body")).to_have_count(2)
 
+@pytest.mark.smoke
 def test_childwindowhandle(page:Page):
     page.goto("https://rahulshettyacademy.com/loginpagePractise/")
     with page.expect_popup() as newpage:    #closure

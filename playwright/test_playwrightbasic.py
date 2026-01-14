@@ -1,5 +1,6 @@
 import time
 
+import pytest
 from playwright.sync_api import Page, expect, Playwright
 
 
@@ -27,6 +28,7 @@ def test_coreLocaters(page:Page):
     page.get_by_role("button", name="Sign In").click()
     time.sleep(5)
 
+@pytest.mark.smoke
 def test_wrongCoreLocaters(page:Page):
     # to use label - it should have label tag
     # that textbox should be wrapped in the label tag OR label 'for' linked with id of the textbox

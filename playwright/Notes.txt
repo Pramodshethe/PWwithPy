@@ -1,0 +1,10 @@
+1. To execute the tests based on tags use '-m' in terminal ex: pytest -m smoke
+2. To execute the tests based on partial name use '-k' with name in terminal ex: pytest -k web_api
+3. Run all tests use just 'pytest'
+4. to Run based on browser use "pytest test_name.py --browser_name firefox"
+5. Run tests in parallel mode
+    5.1. install the plugin "pip install pytest-xdist"
+    5.2. use "pytest -n 5"
+6. pip install pytest-html -> pytest -n 3 --html=report.html
+7. pytest --tracing on,  pytest --tracing off, pytest --tracing retain-on-failure
+    7.1. upload the trace zip at 'https://trace.playwright.dev/'
