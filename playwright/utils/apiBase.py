@@ -1,6 +1,6 @@
 from playwright.sync_api import Playwright
 
-orderspayload = {"orders": [{"country": "India", "productOrderedId": "6960eac0c941646b7a8b3e68"}]}
+orders_payload = {"orders": [{"country": "India", "productOrderedId": "6960eac0c941646b7a8b3e68"}]}
 
 
 class APIUtils:
@@ -14,14 +14,14 @@ class APIUtils:
                                         "userPassword": user_password})
         assert response.ok
         print(response.json())
-        responseBody = response.json()
-        return responseBody["token"]
+        response_body = response.json()
+        return response_body["token"]
 
     def createorder(self, playwright: Playwright, user_credentials):
         token = self.getToken(playwright, user_credentials)
         api_req_con = playwright.request.new_context(base_url="https://rahulshettyacademy.com")
         response = api_req_con.post("/api/ecom/order/create-order",
-                                    data=orderspayload,
+                                    data=orders_payload,
                                     headers={"Authorization": token,
                                              "content-Type": "application/json"
                                              })

@@ -26,7 +26,7 @@ def test_e2e_web_api(playwright:Playwright, browser_instance, user_credentials):
     login_page.navigate()
     dashboard_page = login_page.login(user_email, user_password)
 
-    order_page = dashboard_page.selectOrdersNavLink()   #dashboard page
+    order_page = dashboard_page.select_orders_nav_link()   #dashboard page
 
     order_detail = order_page.select_order(order_id)    #Order page
 

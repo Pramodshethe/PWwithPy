@@ -32,7 +32,7 @@ def login_with_username_password(username, password, shared_data):
 @when("navigate to orders page")
 def navigate_to_order_page(shared_data):
     dashboard_page = shared_data['dashboard_page']
-    order_page = dashboard_page.selectOrdersNavLink()
+    order_page = dashboard_page.select_orders_nav_link()
     shared_data['order_page'] = order_page
 
 @when("select the orderID")
