@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eeee87f-1d58-43eb-adb7-d6267dd3c90b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_UIvalidation1.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_UIvalidation1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_Validate.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_Validate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_fm_web_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_fm_web_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_newtworkintercept1.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_newtworkintercept1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_newtworkintercept2.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_newtworkintercept2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_playwrightbasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_playwrightbasic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_pytest_bdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_pytest_bdd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_web_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_web_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +81,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pramo\PycharmProjects\PythonPlay\playwright" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pramo\PycharmProjects\PythonPlay\playwright\Tests" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in test_pytest_bdd.py">
-    <configuration name="Python tests for playwright.test_UIvalidation1.test_UIValidationDynamicSCript" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_UIvalidation1.test_UIValidationDynamicSCript" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,11 +97,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_UIvalidation1.test_UIValidationDynamicSCript&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_UIvalidation1.test_UIValidationDynamicSCript&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_UIvalidation1.test_childwindowhandle" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_UIvalidation1.test_childwindowhandle" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,11 +112,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_UIvalidation1.test_childwindowhandle&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_UIvalidation1.test_childwindowhandle&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_Validate.test_handleAlerts" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_Validate.test_handleAlerts" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +127,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_Validate.test_handleAlerts&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_Validate.test_handleAlerts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_Validate.test_handleTable" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_Validate.test_handleTable" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +142,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_Validate.test_handleTable&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_Validate.test_handleTable&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_Validate.test_mouseHover" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_Validate.test_mouseHover" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,11 +157,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_Validate.test_mouseHover&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_Validate.test_mouseHover&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_Validate.test_validatenew" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_Validate.test_validatenew" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,11 +172,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_Validate.test_validatenew&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_Validate.test_validatenew&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_fm_web_api.test_e2e_web_api" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_fm_web_api.test_e2e_web_api" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,11 +187,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_fm_web_api.test_e2e_web_api&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_fm_web_api.test_e2e_web_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_newtworkintercept1.test_network1" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_newtworkintercept1.test_network1" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,11 +202,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_newtworkintercept1.test_network1&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_newtworkintercept1.test_network1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_newtworkintercept2.test_sessionstorage" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_newtworkintercept2.test_sessionstorage" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,11 +217,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_newtworkintercept2.test_sessionstorage&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_newtworkintercept2.test_sessionstorage&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_playwrightbasic.test_coreLocaters" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_playwrightbasic.test_coreLocaters" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,11 +232,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_playwrightbasic.test_coreLocaters&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_playwrightbasic.test_coreLocaters&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_playwrightbasic.test_firefocbrowser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_playwrightbasic.test_firefocbrowser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,11 +247,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_playwrightbasic.test_firefocbrowser&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_playwrightbasic.test_firefocbrowser&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_playwrightbasic.test_wrongCoreLocaters" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_playwrightbasic.test_wrongCoreLocaters" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,11 +262,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_playwrightbasic.test_wrongCoreLocaters&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_playwrightbasic.test_wrongCoreLocaters&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_web_api.test_e2e_web_api" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for playwright.Tests.test_web_api.test_e2e_web_api" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,7 +277,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_web_api.test_e2e_web_api&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_web_api.test_e2e_web_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -282,17 +292,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/playwright/test_pytest_bdd.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/playwright/Tests/test_pytest_bdd.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_pytest_bdd.py" />
-        <item itemvalue="Python tests.Python tests for playwright.test_fm_web_api.test_e2e_web_api" />
-        <item itemvalue="Python tests.Python tests for playwright.test_playwrightbasic.test_firefocbrowser" />
-        <item itemvalue="Python tests.Python tests for playwright.test_playwrightbasic.test_wrongCoreLocaters" />
-        <item itemvalue="Python tests.Python tests for playwright.test_playwrightbasic.test_coreLocaters" />
+        <item itemvalue="Python tests.Python tests for playwright.Tests.test_fm_web_api.test_e2e_web_api" />
+        <item itemvalue="Python tests.Python tests for playwright.Tests.test_playwrightbasic.test_firefocbrowser" />
+        <item itemvalue="Python tests.Python tests for playwright.Tests.test_playwrightbasic.test_wrongCoreLocaters" />
+        <item itemvalue="Python tests.Python tests for playwright.Tests.test_playwrightbasic.test_coreLocaters" />
       </list>
     </recent_temporary>
   </component>

@@ -1,11 +1,13 @@
 # Playwright Python Automation Project
 
-This project demonstrates a comprehensive test automation framework using Playwright and pytest for end-to-end testing of a web application. It includes UI tests, API-based scenarios, and Behavior-Driven Development (BDD) with `pytest-bdd`.
+This project demonstrates a comprehensive test automation framework using Playwright and pytest for end-to-end testing of a web application. It includes UI tests, API-based scenarios, network interception, and Behavior-Driven Development (BDD) with `pytest-bdd`.
 
 ## Features
 
 *   **UI Automation**: Automates browser actions to validate web application functionality.
 *   **API Integration**: Uses API calls to set up test data and preconditions, leading to faster and more stable tests.
+*   **Network Interception**: Demonstrates how to mock API responses and modify requests to test edge cases (e.g., no orders found).
+*   **Session Storage Injection**: Shows how to bypass login by injecting authentication tokens directly into local storage.
 *   **Behavior-Driven Development (BDD)**: Implements BDD scenarios using `pytest-bdd` for clear and business-readable tests.
 *   **Cross-Browser Support**: Supports multiple browsers like Chrome and Firefox, configurable via command-line arguments.
 *   **Page Object Model (POM)**: Organizes UI elements and interactions into reusable classes for better maintainability.
@@ -23,22 +25,33 @@ The project is organized into the following directories:
 
 ```
 ├── playwright
+│   ├── assets             # Static assets (e.g., CSS files)
 │   ├── data
-│   │   └── creds.json         # Test data, including credentials
+│   │   └── creds.json     # Test data, including credentials
 │   ├── features
 │   │   └── ordertransaction.feature # BDD feature files
-│   ├── pageobjects
-│   │   └── login.py           # Page Object Model classes
+│   ├── pageobjects        # Page Object Model classes
+│   │   ├── login.py
+│   │   ├── dashboard.py
+│   │   ├── orderpage.py
+│   │   └── orderdetails.py
+│   ├── Tests              # Test files
+│   │   ├── test_Validate.py
+│   │   ├── test_web_api.py
+│   │   ├── test_pytest_bdd.py
+│   │   ├── test_newtworkintercept1.py
+│   │   └── test_newtworkintercept2.py
 │   ├── utils
-│   │   └── apiBase.py         # Utility class for API interactions
-│   ├── conftest.py            # Pytest configuration and fixtures
-│   ├── test_*.py              # Test files
-└── README.md                  # This file
+│   │   └── apiBase.py     # Utility class for API interactions
+│   ├── conftest.py        # Pytest configuration and fixtures
+│   └── Notes.txt          # Project notes
+└── README.md              # This file
 ```
 
+*   `Tests/`: Contains all the test files, including UI, API, and network interception tests.
 *   `data/`: Stores test data files, such as user credentials.
 *   `features/`: Contains `.feature` files for `pytest-bdd`.
-*   `pageobjects/`: Implements the Page Object Model design pattern.
+*   `pageobjects/`: Implements the Page Object Model design pattern with separate classes for Login, Dashboard, Orders, and Order Details.
 *   `utils/`: Includes helper classes, such as `APIUtils` for handling API calls.
 *   `conftest.py`: Defines shared pytest fixtures and command-line options.
 
@@ -94,23 +107,20 @@ The framework supports custom command-line options for flexible test execution.
     pytest --url_link https://your-test-environment.com
     ```
 
-### Running BDD Scenarios
+### Running Specific Tests
 
-To run only the BDD tests, you can target the specific test file:
-```sh
-pytest playwright/test_pytest_bdd.py
-```
+*   **Run BDD Scenarios**:
+    ```sh
+    pytest playwright/Tests/test_pytest_bdd.py
+    ```
 
-## Configuration
+*   **Run Network Interception Tests**:
+    ```sh
+    pytest playwright/Tests/test_newtworkintercept1.py
+    ```
 
-The `playwright/conftest.py` file contains the primary configuration for the test suite. It defines fixtures for:
-*   **Browser Management**: The `browser_instance` fixture handles launching and closing the browser.
-*   **Command-Line Options**: The `pytest_addoption` function registers custom flags like `--browser_name`.
+## Advanced Concepts Demonstrated
 
-## API and BDD Integration
-
-This framework demonstrates how to combine UI and API tests for efficient test execution.
-
-*   **API Utils**: The `APIUtils` class in `playwright/utils/apiBase.py` provides methods to interact with the application's API. For example, it can programmatically log in a user and create an order, setting up a clean state for a subsequent UI test.
-
-*   **BDD Scenarios**: The `ordertransaction.feature` file defines a test scenario in a business-readable format. The steps in this feature file are implemented in `playwright/test_pytest_bdd.py`, which uses the `APIUtils` to create an order via an API call before validating it on the UI. This approach significantly speeds up the test by bypassing unnecessary UI navigation.
+*   **Network Interception**: `test_newtworkintercept1.py` mocks the "get orders" API response to simulate a "No Orders" scenario without needing to actually delete orders in the backend.
+*   **Session Storage**: `test_newtworkintercept2.py` demonstrates how to inject a valid authentication token into the browser's local storage to skip the login screen and go directly to the dashboard.
+*   **Hybrid Testing**: The BDD tests combine API calls (to create an order) with UI interactions (to verify the order), showcasing a hybrid approach that is both fast and reliable.
