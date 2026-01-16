@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4eeee87f-1d58-43eb-adb7-d6267dd3c90b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/pageobjects/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/pageobjects/dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_fm_web_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_fm_web_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_pytest_bdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_pytest_bdd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/utils/apiBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/utils/apiBase.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
