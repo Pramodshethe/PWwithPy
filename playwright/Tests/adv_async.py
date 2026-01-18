@@ -2,7 +2,7 @@ import asyncio
 from playwright.async_api import async_playwright
 
 
-async def test_scrape_page(browser, url):
+async def scrape_page(browser, url):
     """Helper function to scrape a single URL."""
     context = await browser.new_context()
     page = await context.new_page()
@@ -29,7 +29,7 @@ async def main():
         ]
 
         # Schedule all scraping tasks to run concurrently
-        tasks = [test_scrape_page(browser, url) for url in urls]
+        tasks = [scrape_page(browser, url) for url in urls]
         results = await asyncio.gather(*tasks)
 
         print("\nAll results collected:", results)
