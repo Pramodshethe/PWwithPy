@@ -3,8 +3,8 @@ from pathlib import Path
 
 import pytest
 from playwright.sync_api import Playwright, expect
-from pageobjects.login import LoginPage
-from utils.apiBase import APIUtils
+from ..pageobjects.login import LoginPage
+from ..utils.apiBase import APIUtils
 
 current_directory = Path(__file__).parent
 file_path = current_directory / "data" / "creds.json"

@@ -1,8 +1,8 @@
 import pytest
-from pytest_bdd import given, when, then, parsers, scenarios
 
-from pageobjects.login import LoginPage
-from utils.apiBase import APIUtils
+from pytest_bdd import given, when, then, parsers, scenarios
+from ..utils.apiBase import APIUtils
+from ..pageobjects.login import LoginPage
 
 scenarios("features/ordertransaction.feature")  #features_base_dir=
 
