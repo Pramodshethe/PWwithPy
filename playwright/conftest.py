@@ -3,6 +3,7 @@ from idlelib.rpc import request_queue
 import pytest
 from playwright.sync_api import Playwright
 
+
 def pytest_addoption(parser):
     parser.addoption(
         "--browser_name", action="store", default="chrome", help="browser selection"
