@@ -20,8 +20,8 @@ async def UIValidationDynamicSCript(browser):
     await nokia.get_by_role("button").click()
     await page.get_by_text("Checkout").click()
     await expect(page.locator(".media-body")).to_have_count(2)
-    #await context.close()
-
+    await asyncio.sleep(2)
+    await context.close()
 
 async def childwindowhandle(browser):
     context = await browser.new_context()
@@ -37,17 +37,19 @@ async def childwindowhandle(browser):
         email = words.strip().split(" ")[0]
         print(email)
         assert email == "mentor@rahulshettyacademy.com"
-    #await context.close()
+    await asyncio.sleep(2)
+    await context.close()
 
 async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
 
-    await asyncio.gather(
-        childwindowhandle(browser),
-        UIValidationDynamicSCript(browser)
-        )
-    await browser.close()
+        await asyncio.gather(childwindowhandle(browser),
+                             UIValidationDynamicSCript(browser)
+                             )
+
+        await browser.close()
+
 
 if __name__ == "__main__":
     asyncio.run(main())
