@@ -1,13 +1,22 @@
 import asyncio
-
 import pytest
 from playwright.async_api import Page, expect, async_playwright
 
+@pytest.mark.asyncio
+async def test_concurrent_navigation():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=False)
+
+        # Run both navigations concurrently
+        await asyncio.gather(
+            UIValidationDynamicSCript(browser),
+            childwindowhandle(browser)
+        )
+        await browser.close()
+
 
 async def UIValidationDynamicSCript(browser):
-    context = await browser.new_context()
-    page = await context.new_page()
-
+    page = await browser.new_page()
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
     await page.get_by_label("Username:").fill("rahulshettyacademy")
     await page.get_by_label("Password:").fill("Learning@830$3mK2")
@@ -21,12 +30,11 @@ async def UIValidationDynamicSCript(browser):
     await page.get_by_text("Checkout").click()
     await expect(page.locator(".media-body")).to_have_count(2)
     await asyncio.sleep(2)
-    await context.close()
+    await page.close()
+
 
 async def childwindowhandle(browser):
-    context = await browser.new_context()
-    page = await context.new_page()
-
+    page = await browser.new_page()
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
     async with page.expect_popup() as popup_info:
         await page.locator(".blinkingText").click()
@@ -38,18 +46,4 @@ async def childwindowhandle(browser):
         print(email)
         assert email == "mentor@rahulshettyacademy.com"
     await asyncio.sleep(2)
-    await context.close()
-
-async def main():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
-
-        await asyncio.gather(childwindowhandle(browser),
-                             UIValidationDynamicSCript(browser)
-                             )
-
-        await browser.close()
-
-
-if __name__ == "__main__":
-    asyncio.run(main())
+    await page.close()

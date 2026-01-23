@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4eeee87f-1d58-43eb-adb7-d6267dd3c90b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/Tests/async_UIValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/async_UIValidation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/Tests/async_UIValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/Tests/test_async_UIValidation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <recent name="C:\Users\pramo\PycharmProjects\PythonPlay\playwright\Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.async_UIValidation">
+  <component name="RunManager" selected="Python.test_async_UIValidation">
     <configuration name="adv_async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
@@ -131,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="async_UIValidation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_async_UIValidation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,28 +145,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playwright/Tests/async_UIValidation.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pramo\PycharmProjects\PythonPlay\playwright\Tests\test_async_UIValidation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for playwright.Tests.async_UIValidation.test_main" type="tests" factoryName="Autodetect" nameIsGenerated="true">
-      <module name="PythonPlay" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.Tests.async_UIValidation.test_main&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for playwright.Tests.test_UIvalidation1.test_UIValidationDynamicSCript" type="tests" factoryName="Autodetect" nameIsGenerated="true">
@@ -258,6 +244,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for playwright.Tests.test_async_UIValidation" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PythonPlay" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;playwright.Tests.test_async_UIValidation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for playwright.Tests.test_newtworkintercept1.test_network1" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
@@ -318,7 +319,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in async_UIValidation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_async_UIValidation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonPlay" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -329,15 +330,15 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/playwright/Tests/async_UIValidation.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/playwright/Tests/test_async_UIValidation.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.async_UIValidation" />
+        <item itemvalue="Python.test_async_UIValidation" />
         <item itemvalue="Python.asyc_test" />
-        <item itemvalue="Python tests.Python tests in async_UIValidation.py" />
+        <item itemvalue="Python tests.Python tests in test_async_UIValidation.py" />
         <item itemvalue="Python.adv_async" />
         <item itemvalue="Python tests.Python tests in adv_async.py" />
       </list>
